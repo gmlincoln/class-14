@@ -5,7 +5,7 @@ In these two classes, you’ll learn **decision-making (if-else)** and **looping
 
 ---
 
-## ⚙️ CLASS 3 — CONDITIONAL STATEMENTS
+## ⚙️ CLASS 2 — CONDITIONAL STATEMENTS
 
 ### 🧠 1. What Are Conditional Statements?
 Conditional statements let your program make **decisions** — running certain code only when specific conditions are true.
