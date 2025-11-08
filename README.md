@@ -20,7 +20,7 @@ if x > 5:
 ```
 
 
-## 🔹 3. if–else Statement
+### 🔹 3. if–else Statement
 ```python
 num = int(input("Enter a number: "))
 
@@ -30,7 +30,7 @@ else:
     print("Odd number")
 ```
 
-## 🔹 4. if–elif–else
+### 🔹 4. if–elif–else
 ```python
 marks = int(input("Enter your marks: "))
 
@@ -44,7 +44,7 @@ else:
     print("Fail")
 ```
 
-## 🔹 5. Nested if
+### 🔹 5. Nested if
 ```python
 age = int(input("Enter your age: "))
 
@@ -57,7 +57,7 @@ else:
     print("Minor")
 ```
 
-## 🧮 6. Comparison Operators
+### 🧮 6. Comparison Operators
 
 | Operator | Description      | Example  |
 | -------- | ---------------- | -------- |
@@ -69,7 +69,7 @@ else:
 | `<=`     | Less or equal    | `x <= y` |
 
 
-## ⚡ 7. Logical Operators
+### ⚡ 7. Logical Operators
 
 | Operator | Description       | Example            |
 | -------- | ----------------- | ------------------ |
@@ -80,9 +80,9 @@ else:
 
 
 
-## 🧩 8. Practical Examples
+### 🧩 8. Practical Examples
 
-### ✅ Largest of 3 Numbers
+#### ✅ Largest of 3 Numbers
 
 ```python
 a, b, c = map(int, input("Enter 3 numbers: ").split())
@@ -96,7 +96,7 @@ else:
 ```
 
 
-### ✅ Simple Login System
+#### ✅ Simple Login System
 
 ```python
 user = input("Username: ")
@@ -110,7 +110,7 @@ else:
 ```
 
 
-### ✅ Leap Year Checker
+#### ✅ Leap Year Checker
 
 ```python
 year = int(input("Enter year: "))
