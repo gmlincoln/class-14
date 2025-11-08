@@ -20,15 +20,18 @@ if x > 5:
 ```
 
 
-🔹 3. if–else Statement
+## 🔹 3. if–else Statement
+```python
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
     print("Even number")
 else:
     print("Odd number")
+```
 
-🔹 4. if–elif–else
+## 🔹 4. if–elif–else
+```python
 marks = int(input("Enter your marks: "))
 
 if marks >= 80:
@@ -39,8 +42,10 @@ elif marks >= 60:
     print("B")
 else:
     print("Fail")
+```
 
-🔹 5. Nested if
+## 🔹 5. Nested if
+```python
 age = int(input("Enter your age: "))
 
 if age >= 18:
@@ -50,24 +55,36 @@ if age >= 18:
         print("Adult")
 else:
     print("Minor")
+```
 
-🧮 6. Comparison Operators
-Operator	Description	Example
-==	Equal to	x == y
-!=	Not equal to	x != y
->	Greater than	x > y
-<	Less than	x < y
->=	Greater or equal	x >= y
-<=	Less or equal	x <= y
-⚡ 7. Logical Operators
-Operator	Description	Example
-and	Both True	x > 5 and x < 10
-or	At least one True	x > 5 or y < 3
-not	Reverse result	not(x > 5)
-🧩 8. Practical Examples
+## 🧮 6. Comparison Operators
 
-✅ Largest of 3 Numbers
+| Operator | Description      | Example  |
+| -------- | ---------------- | -------- |
+| `==`     | Equal to         | `x == y` |
+| `!=`     | Not equal to     | `x != y` |
+| `>`      | Greater than     | `x > y`  |
+| `<`      | Less than        | `x < y`  |
+| `>=`     | Greater or equal | `x >= y` |
+| `<=`     | Less or equal    | `x <= y` |
 
+
+## ⚡ 7. Logical Operators
+
+| Operator | Description       | Example            |
+| -------- | ----------------- | ------------------ |
+| `and`    | Both True         | `x > 5 and x < 10` |
+| `or`     | At least one True | `x > 5 or y < 3`   |
+| `not`    | Reverse result    | `not(x > 5)`       |
+
+
+
+
+## 🧩 8. Practical Examples
+
+### ✅ Largest of 3 Numbers
+
+```python
 a, b, c = map(int, input("Enter 3 numbers: ").split())
 
 if a >= b and a >= c:
@@ -76,10 +93,12 @@ elif b >= a and b >= c:
     print("Largest:", b)
 else:
     print("Largest:", c)
+```
 
 
-✅ Simple Login System
+### ✅ Simple Login System
 
+```python
 user = input("Username: ")
 pwd = input("Password: ")
 
@@ -88,9 +107,12 @@ if user == "admin" and pwd == "1234":
 else:
     print("Invalid credentials")
 
+```
 
-✅ Leap Year Checker
 
+### ✅ Leap Year Checker
+
+```python
 year = int(input("Enter year: "))
 
 if year % 4 == 0:
@@ -100,8 +122,11 @@ if year % 4 == 0:
         print("Not a leap year")
 else:
     print("Not a leap year")
+```
 
-🧮 9. Mini Project — Grade Calculator
+### 🧮 9. Mini Project — Grade Calculator
+
+```python
 marks = int(input("Enter your marks: "))
 
 if marks >= 90:
@@ -116,19 +141,18 @@ else:
     grade = "F"
 
 print("Your grade is:", grade)
+```
 
-🚫 10. Common Mistakes
+#### 🚫 10. Common Mistakes
 
-❌ Forgetting the colon (:)
+❌ Forgetting the colon (:)  
+❌ Wrong indentation  
+❌ Using = instead of ==  
 
-❌ Wrong indentation
+### 🎯 Practice Tasks
 
-❌ Using = instead of ==
-
-🎯 Practice Tasks
-
-✅ 1. Check if a number is positive, negative, or zero.
-✅ 2. Create a simple ATM simulation (check balance, withdraw, deposit).
-✅ 3. Check if a person is eligible to vote.
-✅ 4. Check if a year is a leap year.
-✅ 5. Verify if three sides form a valid triangle.
+✅ 1. Check if a number is positive, negative, or zero.  
+✅ 2. Create a simple ATM simulation (check balance, withdraw, deposit).  
+✅ 3. Check if a person is eligible to vote.  
+✅ 4. Check if a year is a leap year.  
+✅ 5. Verify if three sides form a valid triangle.  
