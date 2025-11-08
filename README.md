@@ -1,4 +1,4 @@
-# 🐍 PYTHON CLASS 3–4 — CONDITIONALS & LOOPS
+# 🐍 PYTHON CLASS 3 — CONDITIONALS & LOOPS
 
 Welcome back to your Python journey!  
 In these two classes, you’ll learn **decision-making (if-else)** and **looping (for, while)** — the heart of logical programming.
@@ -18,3 +18,117 @@ x = 10
 if x > 5:
     print("x is greater than 5")
 ```
+
+
+🔹 3. if–else Statement
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+🔹 4. if–elif–else
+marks = int(input("Enter your marks: "))
+
+if marks >= 80:
+    print("A+")
+elif marks >= 70:
+    print("A")
+elif marks >= 60:
+    print("B")
+else:
+    print("Fail")
+
+🔹 5. Nested if
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    if age >= 60:
+        print("Senior citizen")
+    else:
+        print("Adult")
+else:
+    print("Minor")
+
+🧮 6. Comparison Operators
+Operator	Description	Example
+==	Equal to	x == y
+!=	Not equal to	x != y
+>	Greater than	x > y
+<	Less than	x < y
+>=	Greater or equal	x >= y
+<=	Less or equal	x <= y
+⚡ 7. Logical Operators
+Operator	Description	Example
+and	Both True	x > 5 and x < 10
+or	At least one True	x > 5 or y < 3
+not	Reverse result	not(x > 5)
+🧩 8. Practical Examples
+
+✅ Largest of 3 Numbers
+
+a, b, c = map(int, input("Enter 3 numbers: ").split())
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)
+
+
+✅ Simple Login System
+
+user = input("Username: ")
+pwd = input("Password: ")
+
+if user == "admin" and pwd == "1234":
+    print("Login Successful!")
+else:
+    print("Invalid credentials")
+
+
+✅ Leap Year Checker
+
+year = int(input("Enter year: "))
+
+if year % 4 == 0:
+    if year % 100 != 0 or year % 400 == 0:
+        print("Leap year")
+    else:
+        print("Not a leap year")
+else:
+    print("Not a leap year")
+
+🧮 9. Mini Project — Grade Calculator
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    grade = "A+"
+elif marks >= 80:
+    grade = "A"
+elif marks >= 70:
+    grade = "B"
+elif marks >= 60:
+    grade = "C"
+else:
+    grade = "F"
+
+print("Your grade is:", grade)
+
+🚫 10. Common Mistakes
+
+❌ Forgetting the colon (:)
+
+❌ Wrong indentation
+
+❌ Using = instead of ==
+
+🎯 Practice Tasks
+
+✅ 1. Check if a number is positive, negative, or zero.
+✅ 2. Create a simple ATM simulation (check balance, withdraw, deposit).
+✅ 3. Check if a person is eligible to vote.
+✅ 4. Check if a year is a leap year.
+✅ 5. Verify if three sides form a valid triangle.
