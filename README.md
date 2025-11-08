@@ -143,7 +143,7 @@ else:
 print("Your grade is:", grade)
 ```
 
-#### 🚫 10. Common Mistakes
+### 🚫 10. Common Mistakes
 
 ❌ Forgetting the colon (:)  
 ❌ Wrong indentation  
