@@ -1,4 +1,4 @@
-# 🐍 PYTHON CLASS 3 — CONDITIONALS & LOOPS
+# 🐍 PYTHON CLASS 2 & 3 — CONDITIONALS & LOOPS
 
 Welcome back to your Python journey!  
 In these two classes, you’ll learn **decision-making (if-else)** and **looping (for, while)** — the heart of logical programming.
