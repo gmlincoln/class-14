@@ -82,32 +82,6 @@ else:
 
 ### 🧩 8. Practical Examples
 
-#### ✅ Largest of 3 Numbers
-
-```python
-a, b, c = map(int, input("Enter 3 numbers: ").split())
-
-if a >= b and a >= c:
-    print("Largest:", a)
-elif b >= a and b >= c:
-    print("Largest:", b)
-else:
-    print("Largest:", c)
-```
-
-
-#### ✅ Simple Login System
-
-```python
-user = input("Username: ")
-pwd = input("Password: ")
-
-if user == "admin" and pwd == "1234":
-    print("Login Successful!")
-else:
-    print("Invalid credentials")
-
-```
 
 #### ✅ Largest Number among three numbers
 
@@ -130,7 +104,82 @@ elif num2 > num1:
 
 ```
 
-#### ✅ Leap Year Checker
+
+#### ✅ Largest of 3 Numbers
+
+```python
+a, b, c = map(int, input("Enter 3 numbers: ").split())
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)
+```
+
+
+#### ✅ Largest of 3 Numbers(Different Way)
+```python
+
+print("SIMPLE CALCULATOR")
+
+num1, num2 = map(int, input("Enter two numbers: ").split())
+
+sign = input("Enter an operator(e.g: +, -, *, /): ")
+
+if sign == '+':
+    print(f"Addition: {num1 + num2}")
+elif sign == '-':
+    print(f"Substraction: {num1 - num2}")
+elif sign == '*':
+    print(f"Multiplication: {num1 * num2}")
+elif sign == "/":
+    print(f"Division: {num1 / num2}")
+else:
+    print("Invalid Operator!!!")
+
+```
+
+#### ✅ Simple Login System
+
+```python
+user = input("Username: ")
+pwd = input("Password: ")
+
+if user == "admin" and pwd == "1234":
+    print("Login Successful!")
+else:
+    print("Invalid credentials")
+
+```
+
+#### ✅ Simple Calculator
+
+```python
+
+print("SIMPLE CALCULATOR")
+
+num1, num2 = map(int, input("Enter two numbers: ").split())
+
+sign = input("Enter an operator(e.g: +, -, *, /): ")
+
+if sign == '+':
+    print(f"Addition: {num1 + num2}")
+elif sign == '-':
+    print(f"Substraction: {num1 - num2}")
+elif sign == '*':
+    print(f"Multiplication: {num1 * num2}")
+elif sign == "/":
+    print(f"Division: {num1 / num2}")
+else:
+    print("Invalid Operator!!!")
+
+```
+
+
+
+<!-- #### ✅ Leap Year Checker
 
 ```python
 year = int(input("Enter year: "))
@@ -142,7 +191,7 @@ if year % 4 == 0:
         print("Not a leap year")
 else:
     print("Not a leap year")
-```
+``` -->
 
 ### 🧮 9. Mini Project — Grade Calculator
 
